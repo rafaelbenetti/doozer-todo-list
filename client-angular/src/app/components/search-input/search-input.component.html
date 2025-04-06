@@ -1,0 +1,14 @@
+<div class="search-input">
+  <p-iconfield width="100%">
+    <p-inputicon styleClass="pi pi-search" />
+    <input
+      (input)="onSearch($event)"
+      type="text"
+      pInputText
+      [placeholder]="placeholder"
+    />
+    @if (loading) {
+    <p-inputicon styleClass="pi pi-spinner pi-spin" />
+    }
+  </p-iconfield>
+</div>

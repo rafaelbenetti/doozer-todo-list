@@ -1,0 +1,6 @@
+<app-page-title title="Users"></app-page-title>
+<app-search-input
+  (search)="onSearch($event)"
+  placeholder="Search"
+></app-search-input>
+<app-table [data]="(users$ | async) ?? []" [columns]="columns"> </app-table>

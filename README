@@ -1,0 +1,29 @@
+# Client - Angular
+
+- New features usage
+  - Standalone components
+  - @inject
+- PrimeNg
+- PrimeIcons
+
+# Client - React
+
+- Tailwind 4
+
+# Server side
+
+- Node and express to serve the application
+- knex as ORM and allow easier querying
+- @wwwouter/typed-knex to map the entity as tables and columns.
+- tsyringe to allow depency injection
+- nodemon for live changes
+- jest for unit testing
+- supertest for mock requests
+
+# Next steps
+
+- JWT authentication
+- Add docker containers
+- Add error handling and logging
+- Charnge to SSR to improve SEO
+- Add service workers for better perfomance

@@ -1,0 +1,10 @@
+@import "variables";
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem 0;
+  border-bottom: 2px solid $borderColor;
+  margin: 2rem 0;
+  color: $primaryColor;
+}
