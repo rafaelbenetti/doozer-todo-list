@@ -1,15 +1,18 @@
 # Client - Angular
 
-- New features usage
+- Highlights
   - Standalone components
   - @inject
-  - pipe async, no need to clear subs
+  - pipe async
+  - new @if annotation
+  - common components
+  - Sinal (I didn't use it because didn't really had a need)
 - PrimeNg
 - PrimeIcons
-
-# Client - React
-
-- Tailwind 4
+- Karma and Jasmine for unit tests
+  - Isolated tests
+  - Shallow tests
+  - Integration tests
 
 # Server side
 
@@ -26,5 +29,5 @@
 - JWT authentication
 - Add docker containers
 - Add error handling and logging
-- Change to SSR to improve SEO
 - Add service workers for better perfomance
+- Add redux to for state management

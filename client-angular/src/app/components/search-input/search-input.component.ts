@@ -9,6 +9,7 @@ import { InputTextModule } from 'primeng/inputtext';
   imports: [InputIcon, IconField, InputTextModule, FormsModule],
   templateUrl: './search-input.component.html',
   styleUrl: './search-input.component.scss',
+  standalone: true,
 })
 export class SearchInputComponent {
   @Input() placeholder: string = 'Search...';
