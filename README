@@ -3,6 +3,7 @@
 - New features usage
   - Standalone components
   - @inject
+  - pipe async, no need to clear subs
 - PrimeNg
 - PrimeIcons
 
@@ -25,5 +26,5 @@
 - JWT authentication
 - Add docker containers
 - Add error handling and logging
-- Charnge to SSR to improve SEO
+- Change to SSR to improve SEO
 - Add service workers for better perfomance
