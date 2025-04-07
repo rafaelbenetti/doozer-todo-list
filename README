@@ -1,12 +1,14 @@
 # Client - Angular
 
 - Highlights
+  - Lazy loading
   - Standalone components
   - @inject
   - pipe async
   - new @if annotation
   - common components
-  - Sinal (I didn't use it because didn't really had a need)
+  - Optional Sinals (not used)
+  - Optional ChangeDetection on push
 - PrimeNg
 - PrimeIcons
 - Karma and Jasmine for unit tests
